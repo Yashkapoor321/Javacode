@@ -1,0 +1,47 @@
+                                                 : CODE :
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void areaCircle(int n){
+        int r = n/2;
+        int a = (22*r*r)/7;
+        System.out.println(a);
+    }
+
+    public static void main(String[] args) {
+       Scanner scn = new Scanner(System.in);
+        int  n = scn.nextInt();
+        areaCircle(n);
+    }
+}   
+
+                                             : QUESTION :
+                                             
+Given the diameter of the circle as input, print its area.
+
+For pi use 22/7 instead of 3.14 or Math.pi.
+
+Also Area=(22*radius*radius)/7
+
+Input Format
+
+For each test case, you will get diameter as an integer input.
+
+Constraints
+
+1<= diameter <= 2^31-1
+
+Output Format
+
+Print the output in the integer format.
+
+Sample Input 0
+
+8
+Sample Output 0
+
+50
+Explanation 0
+
+8 is the diameter of the circle, so 4 is the radius. So area is 50.2857, but since we have to print an integer so we print 50.                                             
