@@ -1,0 +1,63 @@
+                                                : CODE :
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static boolean Greaterornot(int i){
+        if(i>100){
+            return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+      Scanner scn = new Scanner(System.in);
+        int i = scn.nextInt();
+      
+        System.out.println( Greaterornot(i));
+    }
+}          
+
+                                           : QUESTION :
+                                           
+ You will be given an integer as input, you have to print true if the number is greater than 100, and false otherwise.
+
+Test Case 1:
+
+Input: 110
+
+Output: true
+
+Explanation: Since the given input is greater than 100, we printed true.
+
+Input Format
+
+You will get an integer as input.
+
+Constraints
+
+-2^31<= Integer Input <= 2^31
+
+Output Format
+
+You have to print true or false.
+
+Sample Input 0
+
+120
+Sample Output 0
+
+true
+Explanation 0
+
+Since 120 is greater than 100, so we have printed true.
+
+Sample Input 1
+
+90
+Sample Output 1
+
+false
+Explanation 1
+
+Since the input 90 is less than 100, so we print false.                                          
